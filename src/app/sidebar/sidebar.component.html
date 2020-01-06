@@ -1,0 +1,71 @@
+
+<div  class="sidebar data-background-color">
+  <div class="logo simple-text">
+    AGCS Newsletter
+  </div>
+  <ul class="nav">
+    <!--<li routerLinkActive="active" *ngFor="let menuItem of menuItems" class="{{menuItem.class}} nav-item">
+      <a class="nav-link" [routerLink]="[menuItem.path]">
+        <i class="material-icons">{{menuItem.icon}}</i>
+        <p>{{menuItem.title}}</p>
+      </a>
+    </li>-->
+    <li routerLinkActive="active" class="nav-item">
+      <a class="nav-link" routerLink="/dashboard">
+        Dashboard
+      </a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" routerLink="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Account Updates
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" routerLink="/keyprojects">Key Projects</a>
+        <a class="dropdown-item" routerLink="/ongoingactivities">Ongoing-Upcoming activities</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" routerLink="/deliverydashboard">Delivery Dashboard</a>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" routerLink="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Newsletter Corner
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" routerLink="/cornersoftheworld">Corners of the World</a>
+        <a class="dropdown-item" routerLink="/yummytummy">Yummy Tummy</a>
+        <a class="dropdown-item" routerLink="/artwriting">Art of Writing</a>
+        <a class="dropdown-item" routerLink="/recognition">Recognition</a>
+        <a class="dropdown-item" routerLink="/puzzle">Puzzle</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" routerLink="/happymoments">Happy Moments</a>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" routerLink="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Knowledge Hub
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" routerLink="/insurancequiz">Insurance Quiz</a>
+        <a class="dropdown-item" routerLink="/thinkblog">Think Blog</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" routerLink="/editorialcorner">Editorial Corner</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/knowyourcustomer">
+        Know Your Customer
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/newbees">
+        New Bees
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/contactus">
+        Contact Us
+      </a>
+    </li>
+  </ul>
+</div>
+

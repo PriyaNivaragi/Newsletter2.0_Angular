@@ -1,0 +1,30 @@
+.navbar.navbar-transparent {
+  padding-top: 10px;
+}
+
+.navbar.navbar-transparent {
+  background-color: transparent !important;
+  box-shadow: none;
+  padding-top: 25px;
+}
+
+.navbar.navbar-absolute {
+  position: relative;
+  width: 100%;
+  padding-top: 10px;
+  z-index: 1029;
+}
+.fixed-top {
+  position: absolute;
+  border-radius: 0;
+  top:0;
+  right:0;
+  left:0;
+}
+
+a {
+  color: #3C4858;
+}
+
+
+
